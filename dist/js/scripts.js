@@ -9,8 +9,8 @@ toggleBtn.addEventListener("click", function() {
 )
 
 // Copy to clipboard
-const htmlCodes = document.querySelectorAll(".html-code");
-const copyBtns = document.querySelectorAll(".copy-btn");
+const htmlCodes = document.querySelectorAll(".wd-html-code");
+const copyBtns = document.querySelectorAll(".wd-copy-btn");
 
 copyBtns.forEach((copyBtn, index) =>
   copyBtn.addEventListener("click", function() {
